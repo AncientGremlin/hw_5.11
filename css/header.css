@@ -1,0 +1,35 @@
+header{
+    position: fixed;     /* стоять на месте и бояться */
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0,0,0,0.9);
+}
+header nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none; /* kill маркеры */
+
+}
+header nav ul li{
+    display: inline-block; /* в ряд! Но сохранить ряд свойств */
+    padding: 10px;
+    border:  1px solid #b5b8b1;
+    transition: 0.5s; /*наведем постепенную красоту */
+    background-color: rgba(0,0,0,0.9);
+
+}
+/* буквально */
+header nav ul li:hover{
+    display: inline-block;
+    padding: 10px;
+    border:  1px solid #b5b8b1;
+    background-color: rgba(153, 153, 153, 0.9);
+    /* cursor - это на потом */
+
+}
+header nav a {
+    color: #b5b8b1;
+    text-decoration: none; /* к дьяволу подчеркивание */
+    font-size: 19px;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+.images_nav{
+    margin: 20px auto 20px auto;
+    width: fit-content;
+}
+
+.image_nav {
+    width: 200px;
+    height: 125px;
+    font-size: 20px;
+    display: inline-block;
+    margin:30px;
+    
+}
+.image_nav a{
+    text-align: right;
+    color: white;
+    display: block;
+    padding-left: 10px;
+    padding-bottom: 90px;
+    text-decoration: none;
+}
+
+#about_img{
+    background-repeat: no-repeat; 
+    background-image: url('../images/about.jpg');
+}
+#contacts_img{
+    background-repeat: no-repeat; 
+    background-image: url('../images/contacts.jpg');
+}
+#fish_img{
+    background-repeat: no-repeat; 
+    background-image: url('../images/fish.jpg');
+}
+.comment{
+    font-style: italic;
+    font-weight: 200;
+}
