@@ -1,11 +1,11 @@
 /* особый класс для div */
 .night_div {
-    background-color:#1c1c1cf1 !important; /* да, автор знает, что делает important :) */
-    color:#b3aeaa !important; 
+    background-color:#1c1c1cf1;
+    color:antiquewhite; 
     font-size: 17px;
 }
 .night_div a{
-    color: #c1c5bc;
+    color: antiquewhite;
     font-weight: bold;
 }
 .night_div h1{

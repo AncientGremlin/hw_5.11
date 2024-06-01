@@ -1,35 +1,31 @@
-header{
-    position: fixed;     /* стоять на месте и бояться */
-    width: 100%;
-    top: 0px;
-    background-color: rgba(0,0,0,0.9);
-}
-header nav ul{
-    margin: 0px;
-    padding: 0px;
-    list-style-type:none; /* kill маркеры */
 
+#boring{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /*400px - это слишком жирно */
+    background: url('../images/view-apocalyptic-dark-clouds_modified_by_ancient.png') center no-repeat;
+    background-size:cover;
 }
-header nav ul li{
-    display: inline-block; /* в ряд! Но сохранить ряд свойств */
-    padding: 10px;
-    border:  1px solid #b5b8b1;
-    transition: 0.5s; /*наведем постепенную красоту */
-    background-color: rgba(0,0,0,0.9);
+header#boring h1{
+    color:bisque;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -4px -1px 0 #000000ab, 2px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+/* позаботимся об экранах поменьше */
+header {
+    padding-bottom: 50px;
+}
 
+@media  (max-width: 1280px) {
+    #boring {  
+        background-image: url('../images/view-apocalyptic-dark-clouds_W_1280.png');
+    }   
 }
-/* буквально */
-header nav ul li:hover{
-    display: inline-block;
-    padding: 10px;
-    border:  1px solid #b5b8b1;
-    background-color: rgba(153, 153, 153, 0.9);
-    /* cursor - это на потом */
 
-}
-header nav a {
-    color: #b5b8b1;
-    text-decoration: none; /* к дьяволу подчеркивание */
-    font-size: 19px;
-    font-weight: bold;
+@media  (max-width: 1080px) {
+    #boring {  
+        background-image: url('../images/view-apocalyptic-dark-clouds_1080.png');
+    }   
 }

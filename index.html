@@ -6,13 +6,16 @@
     <meta charset="utf-8">
     <!--- подключаем стили, пока обойдемся без шрифтов -->
     <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/scrollbar_style.css">   
-    <link rel="stylesheet" href="./css/night_div.css">   
+    <link rel="stylesheet" href="./css/night_div.css">  
+    <link rel="stylesheet" href="./css/day_div.css"> 
     <link rel="stylesheet" href="./css/footer.css">   
     <link rel="stylesheet" href="./css/others.css">  
     <link rel="stylesheet" href="./css/borders.css">   
+    <link rel="stylesheet" href="./css/images_nav.css">   
   <!-- пока не актуально   <link rel="stylesheet" href="./css/links.css">  -->
     <!-- закончили подключать стили, полззззем дальше -->
     <title>Чешуя и когти</title>
@@ -25,9 +28,10 @@
         <nav>        
             <ul>
                 <li><a href="#">Главная</a></li>
+                <li><a href="./pages/news_TZ.html">Новости согласно ТЗ</a></li>
+                <li><a href="./pages/real_news.html">Нетривиальные новости</a></li>
                 <li><a href="pages/about_us.html">О нас</a></li>
                 <li><a href="pages/contacts.html">Контакты</a></li>
-                <li><a href="pages/fish.html">Рыба тоже чешуйчатая</a></li>
                 <!-- заложим воможность смены темы с ночной на дневную с помощью js и печенек
                 <li>Сменить тему</li>
                 -->
@@ -39,19 +43,21 @@
         <div class="night_div main_content">
             <h1>Добро пожаловать, путник!</h1>
             <h2>Коротко о выполненной работе:</h2>
-            <p>Рука не повернулась следовать исключительно ТЗ :) . Умение пользоваться тегами для форматирования текста 
-                продемонстрировано <a href="pages/fish.html">тут</a>. 
+            <p>И снова рука не повернулась следовать исключительно ТЗ :) . Страница Новостей, выполненная исключительно согласно
+                ТЗ, расположена <a href="pages/news_TZ.html">тут</a>. 
             </p>
-            <h2>Дабы страничка не была пустой, прямо тут разместим красивую навигацию.</h2>
             <div class="images_nav">
+                <div class="image_nav border1" id="news_TZ_img">
+                    <a href="pages/news_TZ.html">Новости согласно ТЗ</a>
+                </div>
+                <div class="image_nav border1" id="news_img">
+                    <a href="pages/real_news.html">Новости</a>
+                </div>
                 <div class="image_nav border1" id="about_img">
                     <a href="pages/about_us.html">О нас</a>
                 </div>
                 <div class="image_nav border1" id="contacts_img">
                     <a href="pages/contacts.html">Контакты</a>
-                </div>
-                <div class="image_nav border1" id="fish_img">
-                    <a href="pages/fish.html">Рыба</a>
                 </div>
             </div>
         </div>
