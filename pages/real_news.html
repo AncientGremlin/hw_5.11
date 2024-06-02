@@ -12,26 +12,15 @@
     <link rel="stylesheet" href="../css/day_div.css"> 
     <link rel="stylesheet" href="../css/borders.css">   
     <link rel="stylesheet" href="../css/footer.css">      
-    <link rel="stylesheet" href="../css/others.css">   
-    <!-- покажем, что мы умеем в глобальные стили  -->
-<style>
-    header {
-        background: url('../images/ancient.png') no-repeat;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 300px;
-        background-size: cover;
-    }
-</style>
-
+    <link rel="stylesheet" href="../css/others.css">     
+    <link rel="stylesheet" href="../css/news.css"> 
     <!-- закончили подключать стили, полззззем дальше -->
     <title>Чешуя и когти. Нетривиальные новости.</title>
 </head>
 
 <body >
     <!-- шапка  -->
-    <header >
+    <header class="real_news_header" >
         <!-- навигация  -->
         <nav>        
             <ul>
@@ -42,13 +31,28 @@
                 <li><a href="./contacts.html">Контакты</a></li>
             </ul>
         </nav>
-        <h1>Отдыхай, ИА Панорама!</h1>
+        <h1>Если Вы это читаете, автор благополучно спит на клавиатуре, проспав дедлайн</h1>
     </header>
     <!-- пошел контент  -->
     <main>
-        <div class="day_div main_content">
-            <p>Если Вы видите страницу такой, автор заснул на клавиатуре и проспал дедлайн, 
-                не успев реализовать все задумки =(...</p>
+        <div class="day_div main_under_header">
+            <section class="real_news_section">
+                <article class="real_news_article">
+                    <a name="news1"></a>
+                    <a href="#news1"><h2>Главный врач ведущей клиники был едва не разоблачен</h2></a>
+                    <div class="article-meta">Опубликовал 
+                        <a href="#">Кирилл Горыныч</a> 29 мая 2024
+                    </div>
+                    <img src="../images/news1.jpeg" alt="news1">
+                    <p>Уважаемый кардиохирург Игнис Дракарисс (земное имя: Игнат Дракорович) 
+                        едва не был разоблачен. 
+                        Увы, ввиду высокой нагрузки на своей земной работе он забыл об 
+                        обязательном обновлении маскировки. Специалисты "Чешуя и когти" успешно 
+                        замяли это происшествие, сославшись на усталость работников поликлиники
+                        и незначительную утечку газа.
+                    </p>
+                </article>
+            </section>
         </div>
     </main>
     <!-- подвал. Оставим Skillfactory: красиво стоит -->
@@ -63,8 +67,8 @@
             <span> Background by <a href="https://unsplash.com/@briantagalog?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brian Patrick Tagalog</a> 
                 on <a href="https://unsplash.com/photos/grayscale-photography-of-rock-formation-_8hGFBxWD0A?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
             </span>
-            <span>Header's picture by <a href="https://ru.freepik.com/free-photo/view-apocalyptic-dark-clouds_94164708.htm#fromView=search&page=1&position=22&uuid=b61b156e-3d99-4c31-9b36-b30816012be1">Freepik</a>
-and <a href="https://ru.freepik.com/free-photo/majestic-dragon-perched-mountain-peak-overlooking-breathtaking-landscape-generated-by-ai_47589515.htm#fromView=search&page=1&position=21&uuid=86dd7c74-3c07-49e4-946d-951774330a65">Freepik</a>,
+            <span>Header's pictures by Freepik (<a href="https://ru.freepik.com/free-photo/view-apocalyptic-dark-clouds_94164708.htm#fromView=search&page=1&position=22&uuid=b61b156e-3d99-4c31-9b36-b30816012be1">clouds</a>
+and <a href="https://ru.freepik.com/free-photo/majestic-dragon-perched-mountain-peak-overlooking-breathtaking-landscape-generated-by-ai_47589515.htm#fromView=search&page=1&position=21&uuid=86dd7c74-3c07-49e4-946d-951774330a65">dragon</a>),
 modified by AncientGremlin (FacelessCrafter)
             </span>
             <span>Images for news generated on <a href="https://playground.com/create">playground.com</a></span>
