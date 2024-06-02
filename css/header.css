@@ -1,3 +1,6 @@
+header {
+    padding-bottom: 50px;
+}
 
 .news_header{
     display: flex;
@@ -7,15 +10,12 @@
     background: url('../images/view-apocalyptic-dark-clouds_modified_by_ancient.png') center no-repeat;
     background-size:cover;
 }
-header.news_header h1{
+header.news_header h1,
+header.real_news_header h1{
     color:bisque;
     font-size: 4em;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: -4px -1px 0 #000000ab, 2px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-}
-
-header {
-    padding-bottom: 50px;
 }
 
 .real_news_header {
@@ -26,6 +26,7 @@ header {
     height: 300px;
     background-size: cover;
 }
+
 
 /* позаботимся об экранах поменьше */
 @media  (max-width: 3000px) {
