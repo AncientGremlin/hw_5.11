@@ -1,5 +1,5 @@
 
-#boring{
+#news{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,7 +7,7 @@
     background: url('../images/view-apocalyptic-dark-clouds_modified_by_ancient.png') center no-repeat;
     background-size:cover;
 }
-header#boring h1{
+header#news h1{
     color:bisque;
     font-size: 4em;
     font-family: 'Times New Roman', Times, serif;
@@ -18,14 +18,20 @@ header {
     padding-bottom: 50px;
 }
 
+@media  (max-width: 3000px) {
+    #news {  
+        background-image: url('../images/view-apocalyptic-dark-clouds_edited_by_ancient_3000.png');
+    }   
+}
+
 @media  (max-width: 1280px) {
-    #boring {  
+    #news {  
         background-image: url('../images/view-apocalyptic-dark-clouds_W_1280.png');
     }   
 }
 
 @media  (max-width: 1080px) {
-    #boring {  
+    #news {  
         background-image: url('../images/view-apocalyptic-dark-clouds_1080.png');
     }   
 }
