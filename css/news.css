@@ -20,3 +20,7 @@
     height: 300px;
     object-fit: cover;
 }
+
+.real_news_article:hover {
+    background-color: rgba(101, 91, 91, 0.3);
+}
