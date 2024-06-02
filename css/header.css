@@ -1,5 +1,5 @@
 
-#news{
+.news_header{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,31 +7,31 @@
     background: url('../images/view-apocalyptic-dark-clouds_modified_by_ancient.png') center no-repeat;
     background-size:cover;
 }
-header#news h1{
+header.news_header h1{
     color:bisque;
     font-size: 4em;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: -4px -1px 0 #000000ab, 2px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
-/* позаботимся об экранах поменьше */
+
 header {
     padding-bottom: 50px;
 }
-
+/* позаботимся об экранах поменьше */
 @media  (max-width: 3000px) {
-    #news {  
+    .news_header {  
         background-image: url('../images/view-apocalyptic-dark-clouds_edited_by_ancient_3000.png');
     }   
 }
 
 @media  (max-width: 1280px) {
-    #news {  
+    .news_header {  
         background-image: url('../images/view-apocalyptic-dark-clouds_W_1280.png');
     }   
 }
 
 @media  (max-width: 1080px) {
-    #news {  
+    .news_header {  
         background-image: url('../images/view-apocalyptic-dark-clouds_1080.png');
     }   
 }
