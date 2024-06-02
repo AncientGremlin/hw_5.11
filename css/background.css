@@ -15,7 +15,9 @@ body{
     }   
 }
 */
-
+a {
+    cursor: url('../images/cursor1.png'), pointer; 
+}
 @media  (max-width: 1080px) {
     body {  
         background-image: url('../images/brian-patrick-tagalog_1920_1080.jpg');
