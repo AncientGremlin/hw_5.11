@@ -9,6 +9,7 @@
     width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
+    background: url('../images/border.png') repeat-x; /* другие два гремлина не будут против */
 }
 .real_news_article a {
     text-decoration: none;
